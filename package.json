@@ -2,7 +2,7 @@
   "name": "demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ledoanh96.github.io/weather-app-react/",
+  "homepage": "https://ledoanh96.github.io/weather-app-react-ghpages/",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "gh-pages": "^2.0.1",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
